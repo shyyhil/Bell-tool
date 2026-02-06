@@ -129,9 +129,9 @@ export default function Home() {
                   onChange={(e) => setSelectedBundle(e.target.value)}
                 >
                   <option value="All">All Bundles</option>
-                  <option value="Bundle 1">Bundle 1 (Good)</option>
-                  <option value="Bundle 2">Bundle 2 (Better)</option>
-                  <option value="Bundle 3">Bundle 3 (Best)</option>
+                  <option value="Bundle 1">Bundle 1 (Starter)</option>
+                  <option value="Bundle 2">Bundle 2 (Starter + pick 10 + SN&TSN)</option>
+                  <option value="Bundle 3">Bundle 3 (Better)</option>
                 </select>
                 <Filter className="absolute right-3 top-3.5 h-5 w-5 text-gray-400 pointer-events-none" />
               </div>

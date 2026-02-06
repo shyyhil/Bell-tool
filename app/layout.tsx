@@ -15,9 +15,9 @@ export const metadata: Metadata = {
   },
   // This fixes the preview when you share on WhatsApp/iMessage/LinkedIn
   openGraph: {
-    title: "Bell TV Sales Tool",
+    title: "Bell TV Channel Lookup Tool",
     description: "Instant channel lookup for Bell Bundles 1, 2, and 3.",
-    siteName: "Bell Sales Tool",
+    siteName: "Bell TV Channel Lookup Tool",
     locale: "en_CA",
     type: "website",
   },

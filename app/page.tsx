@@ -129,8 +129,8 @@ export default function Home() {
                   onChange={(e) => setSelectedBundle(e.target.value)}
                 >
                   <option value="All">All Bundles</option>
-                  <option value="Bundle 1">Bundle 1 (Starter)</option>
-                  <option value="Bundle 2">Bundle 2 (Starter + pick 10 + SN&TSN)</option>
+                  <option value="Bundle 1">Bundle 1 (Strtr)</option>
+                  <option value="Bundle 2">Bundle 2 (Strtr + pck 10 + SN&TSN)</option>
                   <option value="Bundle 3">Bundle 3 (Better)</option>
                 </select>
                 <Filter className="absolute right-3 top-3.5 h-5 w-5 text-gray-400 pointer-events-none" />
@@ -215,7 +215,7 @@ export default function Home() {
                   )}
                   {channel.bundles.includes('Bundle 2') && (
                     <span className="px-2.5 py-1 rounded-md text-xs font-bold bg-blue-100 text-blue-700 border border-blue-200 shadow-sm">
-                      B2 (can be added with pick 10)
+                      B2 (with pick 10)
                     </span>
                   )}
                   {channel.bundles.includes('Bundle 3') && (

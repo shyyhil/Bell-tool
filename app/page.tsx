@@ -108,9 +108,9 @@ export default function Home() {
               <input
                 type="text"
                 placeholder="e.g. TSN, CNN, 1500..."
-                className="w-full pl-12 pr-4 py-3 text-lg border-2 border-gray-200 rounded-lg focus:border-[#0052CC] focus:ring-2 focus:ring-blue-100 outline-none transition-all"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full pl-12 pr-4 py-3 text-lg text-gray-900 placeholder-gray-500 bg-white border-2 border-gray-300 rounded-lg focus:border-[#0052CC] focus:ring-1 focus:ring-blue-200 outline-none transition-all shadow-sm"
+               value={searchQuery}
+               onChange={(e) => setSearchQuery(e.target.value)}
               />
             </div>
           </div>
@@ -215,7 +215,7 @@ export default function Home() {
                   )}
                   {channel.bundles.includes('Bundle 2') && (
                     <span className="px-2.5 py-1 rounded-md text-xs font-bold bg-blue-100 text-blue-700 border border-blue-200 shadow-sm">
-                      B2
+                      B2 (can be added with pick 10)
                     </span>
                   )}
                   {channel.bundles.includes('Bundle 3') && (
@@ -270,7 +270,7 @@ export default function Home() {
       </section>
 
       <footer className="text-center py-8 text-gray-400 text-sm">
-        &copy; 2024 Bell TV Sales Tool
+        &copy; Last updated Feb 2026.
       </footer>
     </main>
   );

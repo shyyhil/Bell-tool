@@ -85,11 +85,11 @@ export default function Home() {
       <header className="bg-gradient-to-br from-[#0052CC] to-[#003366] text-white shadow-lg pb-12">
         <div className="max-w-4xl mx-auto px-4 py-8">
           <div className="flex items-center justify-center space-x-3 mb-2">
-            <Tv className="w-8 h-8 opacity-90" />
+            {/* <Tv className="w-8 h-8 opacity-90" /> */}
             <h1 className="text-3xl md:text-4xl font-bold tracking-tight">Bell TV Channel Lookup</h1>
           </div>
           <p className="text-center text-blue-100 text-sm font-medium opacity-90">
-            Bundle 1, 2, & 3 Sales Tool
+            Lookup any Bell TV channel by name or number, filter by bundle or category.
           </p>
         </div>
       </header>
